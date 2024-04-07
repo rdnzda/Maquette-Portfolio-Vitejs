@@ -1,0 +1,120 @@
+.portrait {
+    position: relative;
+    max-width: 1400px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.portrait img {
+    background-image: linear-gradient(45deg, hsl(189, 100%, 47%), hsl(275, 100%, 61%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    background: transparent;
+    width: 450px;
+}
+
+.portrait-content-div {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.portrait-content-section {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 50px;
+}
+
+.portrait-titles h1 {
+    margin: 0px 50px;
+    line-height: 5rem;
+    font-size: 4rem;
+    color: white;
+}
+
+.gradient-text {
+    background-image: linear-gradient(45deg, hsl(189, 100%, 47%), hsl(289, 100%, 50%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.portrait-titles h2 {
+    line-height: 4rem;
+    margin: 0px 50px;
+}
+
+.portrait-titles p {
+    color: white;
+    margin: 5px 50px;
+}
+
+.portrait-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: 0px 50px;
+    margin-top: 20px;
+}
+
+#contact-button {
+    padding: 16px 32px;
+    border: none;
+    background: linear-gradient(45deg,rgba(52, 52, 52, 0.3) 10%, rgba(0, 0, 0, 1) 50%, rgba(52, 52, 52, 0.3) 90%);
+    border: 1px solid transparent;
+    color: black;
+    font-family: "Inter-Medium", "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    box-shadow: 0 0 4px #ffffff, 0 0 4px #ffffff, 0 0 4px #7bcdf6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-button a {
+    text-decoration: none;
+}
+
+#contact-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px #ffffff, 0 0 4px #ffffff, 0 0 4px #7bcdf6;
+}
+
+#contact-button span {
+    background-image: linear-gradient(45deg, hsl(189, 100%, 47%), hsl(281, 54%, 64%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+}
+
+#github-button {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    background: white;
+    border: 1px solid transparent;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.portrait-content-div {
+    position: relative;
+}
+
+#github-button:hover {
+    box-shadow: 0 0 10px white,  0 0 10px white,  0 0 10px white;
+    cursor: pointer;
+}

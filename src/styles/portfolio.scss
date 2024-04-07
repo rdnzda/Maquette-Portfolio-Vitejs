@@ -1,0 +1,12 @@
+.portfolio {
+    max-width: 1400px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.portfolio .skills-container {
+    max-width: 1200px;
+    width: 100%;
+}

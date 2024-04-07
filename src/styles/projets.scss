@@ -1,0 +1,35 @@
+#projets {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    .projets {
+        max-width: 1200px;
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 81.25px;
+    } 
+}
+
+.projets-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        color: white;
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    p {
+        color: white;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+}
+

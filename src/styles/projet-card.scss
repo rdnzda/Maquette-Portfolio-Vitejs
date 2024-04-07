@@ -1,0 +1,135 @@
+.mes-derniers-projets-body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mes-derniers-projets-body h3 {
+    letter-spacing: 3px;
+    line-height: 1.2em;
+    font-weight: 600;
+    font-style: normal;
+    width: fit-content;
+    font-size: 16px;
+    color: rgba(114, 120, 136, .8);
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.mes-derniers-projets-body a {
+    text-decoration: none;
+    background-image: linear-gradient(45deg,hsl(235, 100%, 90%), hsl(202, 100%, 50%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 12px;
+}
+
+.projets {
+    display: flex;
+    flex-direction: row;
+    gap: 81.25px;
+    overflow: hidden;
+}
+
+.projets h3 {
+    font-size: 14px;
+}
+
+.projet-card-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 7px;
+    width: fit-content;
+}
+
+.projet-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 15px;
+    width: 100%;
+    transition: border 0.1s linear;
+    overflow: hidden;
+    background: rgba(15, 15, 15, 0.2);
+    max-width: 175px;
+    min-width: 175px;
+}
+
+.projet-card .container {
+    min-height: 175px;
+    max-height: 175px;
+    max-width: 175px;
+    min-width: 175px;
+}
+
+
+.projet-card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+    transition: transform 0.1s linear;
+    scale: 100%;
+}
+
+.projet-card img:hover{
+    transform: scale(1.1);
+}
+
+.projet-card-body {
+    display: none;
+    position: absolute;
+    background: linear-gradient(rgba(255, 255, 255, 0) 0, rgba(15, 15, 15, .7) 50%, rgba(0, 0, 0, 1) 100%);
+    border-radius: 15px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 50%;
+}
+
+.projet-card-container h4 {
+    text-align: left;
+    padding: 0;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.projet-card-container p {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(236, 237, 238, 0.8);
+    max-width: 175px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tags .tag {
+    position: relative;
+    padding: 5px 20px;
+    margin: 0;
+    margin-bottom: 0;
+    background: rgb(191, 191, 191);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 25px;
+    width: fit-content;
+}

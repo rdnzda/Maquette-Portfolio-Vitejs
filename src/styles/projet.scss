@@ -1,0 +1,46 @@
+.projet {
+    max-width: 1200px;
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projet h1 {
+    margin: 0;
+    width: fit-content;
+    font-size: 32px;
+}
+
+.projet h2 {
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, .6);
+}
+
+.projet-body {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    h3 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    h4 {
+        margin: 0;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+    p {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,38 @@
+.parcours {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    h3{
+        font-size: 2rem;
+        color: rgba($color: #ffffff, $alpha: 0.8);
+        border-top: 3px solid rgba($color: #ffffff, $alpha: 0.8);
+        width: fit-content;
+        padding-top: 15px;
+    }
+}
+.parcours-container {
+    padding: 50px;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(108, 108, 108, 0.1), rgba(0, 0, 0, 0));
+    border: 3px solid transparent;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #ffffff;
+    gap: 30px;
+}
+.parcour {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    p {
+        color: rgba(255, 255, 255, 0.8);
+        margin: 0;
+    }
+    h4 {
+        margin: 0;
+    }
+}
